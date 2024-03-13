@@ -1,0 +1,30 @@
+#hexagono {
+    width: 100px;
+    height: 105px;
+    background: transparent url('../tt.jpeg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+ }
+ #hexagono:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-bottom: 25px solid transparent;
+ }
+ #hexagono:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-top: 25px solid transparent;
+ }

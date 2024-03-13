@@ -1,0 +1,21 @@
+@import url('./hexagono.css');
+
+@media screen and (max-width: 575px){
+  .containerPrincipal{
+    flex-direction: column;
+  }
+  .aboutIntro{
+    order: 1;
+    gap: 5px !important;
+  }
+
+
+  .aboutImg{
+    padding-left: 10px !important;
+  }
+
+  .aboutImg > img {
+    height: 40vh !important;
+    margin-top: -50px;
+  }
+}
