@@ -17,6 +17,10 @@ function capturaURL() {
             element = document.getElementById('sobre')
             capturaElemento(element)
             break;
+        case '/pages/portifolio.html':
+            element = document.getElementById('sobre')
+            capturaElemento(element)
+            break;
 
         default:
             console.log('não deu certo')
